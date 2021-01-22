@@ -5,3 +5,11 @@ while count < 5 do
   count += 1
 end
 end
+
+def loop_message_n_times (message, limit)
+  count = 0
+  while count < limit do
+    puts "Hello Moon.", "Hello Red Balloon."
+    count += 1
+  end
+end
