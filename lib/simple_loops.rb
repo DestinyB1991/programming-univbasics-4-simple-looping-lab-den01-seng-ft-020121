@@ -7,9 +7,11 @@ end
 end
 
 
-def loop_message_n_times (message, number)
-5.times {puts "Hello Moon."}
-10.times {puts "Hello Red Balloon."}
+def loop_message_n_times (message, limit)
+  count = 0
+  while count < limit do
+    puts message
+    count += 1
 end
 
 def output_array (message, number)
