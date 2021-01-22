@@ -7,10 +7,11 @@ end
 end
 
 
-def loop_message_n_times (message)
+def loop_message_n_times (message, limit)
   count = 0
-  while count < 10 do
-    puts message
+  while count < limit do
+    puts "Hello Moon."
+    puts "Hello Red Balloon."
     count += 1
 end
 
