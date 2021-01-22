@@ -9,7 +9,6 @@ end
 def loop_message_n_times (message, limit)
   count = 0
   while count < limit do
-  puts "Hello Moon."
   puts "Hell Red Balloon."
     count += 1
   end
